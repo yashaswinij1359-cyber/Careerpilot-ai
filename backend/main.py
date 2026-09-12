@@ -55,7 +55,7 @@ app.add_middleware(
         "http://127.0.0.1:3000",
 
         # Vercel frontend
-        "careerpilot-ai-weld-theta.vercel.app",
+        "https://careerpilot-ai-weld-theta.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
