@@ -44,6 +44,8 @@ app = FastAPI(
 # CORS
 # =====================================================
 
+from fastapi.middleware.cors import CORSMiddleware
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -52,8 +54,8 @@ app.add_middleware(
         "http://localhost:3000",
         "http://127.0.0.1:3000",
 
-        # Your Vercel frontend
-        "https://careerpilot-green.vercel.app",
+        # Vercel frontend
+        "careerpilot-ai-weld-theta.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
