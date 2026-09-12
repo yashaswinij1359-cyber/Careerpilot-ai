@@ -1,0 +1,18 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend
+backend/__pycache__/
+backend/*.pyc
+
+# Environment / secrets
+.env
+backend/.env
+
+# Database
+backend/*.db
+
+# Python
+*.pyc
+__pycache__/
